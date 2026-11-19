@@ -256,6 +256,7 @@ public class HomeController implements Controller {
     homeView.setEnabled(HomeView.ActionType.SORT_HOME_FURNITURE_BY_WIDTH, true);
     homeView.setEnabled(HomeView.ActionType.SORT_HOME_FURNITURE_BY_HEIGHT, true);
     homeView.setEnabled(HomeView.ActionType.SORT_HOME_FURNITURE_BY_DEPTH, true);
+    homeView.setEnabled(HomeView.ActionType.SORT_HOME_FURNITURE_BY_VOLUME, true);
     homeView.setEnabled(HomeView.ActionType.SORT_HOME_FURNITURE_BY_X, true);
     homeView.setEnabled(HomeView.ActionType.SORT_HOME_FURNITURE_BY_Y, true);
     homeView.setEnabled(HomeView.ActionType.SORT_HOME_FURNITURE_BY_ELEVATION, true);
